@@ -1,2 +1,2 @@
 # munteanuic.github.io
-This is my personal webpage.
+This is my personal website.
