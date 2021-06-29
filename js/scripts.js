@@ -7,6 +7,15 @@
 // Scripts
 // 
 
+function decOpac(x){
+    x.style.opacity = "0.5";
+    console.log("hhhhhhh");
+};
+function incOpac(x){
+  x.style.opacity = "1";
+  console.log("ftvcfvc");
+};
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -30,5 +39,8 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+    
+
 
 });
