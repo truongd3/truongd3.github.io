@@ -10993,8 +10993,6 @@ section.resume-section .resume-section-content {
   }
 }
 
-
-
 .container2{
   margin: 0px;
 }
@@ -11132,7 +11130,9 @@ section.resume-section .resume-section-content {
       font-size: 18px;
   }
   .image2{
-    flex: 100%;
-    width: 100px;
+    height: 200px;
+  }
+  .image2 .details2 h2{
+    margin-top: 40px;
   }
 }
