@@ -11124,7 +11124,7 @@ section.resume-section .resume-section-content {
   .image2{
       flex: 100%;
       max-width: 500px;
-      height: 250px
+      height: 50px;
   }
 }
 
@@ -11136,5 +11136,10 @@ section.resume-section .resume-section-content {
 
   .more2 .read-more2, .more2 .icon-links a i{
       font-size: 18px;
+  }
+  .image2{
+    flex: 100%;
+    max-width: 500px;
+    height: 50px;
   }
 }
