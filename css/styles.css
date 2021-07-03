@@ -11139,7 +11139,7 @@ section.resume-section .resume-section-content {
   }
   .image2{
     flex: 100%;
-    max-width: 500px;
+    max-width: 100px;
     height: 50px;
   }
 }
