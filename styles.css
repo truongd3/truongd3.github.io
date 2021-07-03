@@ -11137,4 +11137,8 @@ section.resume-section .resume-section-content {
   .more2 .read-more2, .more2 .icon-links a i{
       font-size: 18px;
   }
+  
+  .image2{
+    height: 200px;
+  }  
 }
