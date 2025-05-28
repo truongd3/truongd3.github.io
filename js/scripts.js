@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Resume v7.0.1 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 function decOpac(x){
     x.style.opacity = "0.5";
     console.log("hhhhhhh");
@@ -39,8 +30,4 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
-    
-
-
 });
