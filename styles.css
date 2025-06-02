@@ -6,7 +6,6 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #07aef5;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -11131,4 +11130,8 @@ section.resume-section .resume-section-content {
   .image2{
     height: 230px;
   }  
+}
+
+span.quantify {
+  color: var(--bs-primary);
 }
