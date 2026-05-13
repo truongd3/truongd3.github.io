@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Master Student in Computer Science @ OSU</p>
+    <p>MS in CS @ Oregon State University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -33,8 +33,6 @@ I specialize in **Infrastructure**, **Fullstack Development**, and **Performance
 - Fullstack & Site Optimization @ [Justworks](https://www.justworks.com) (2024) — _Focused on payroll, tax computation, and performance_
 - Embedded Systems @ [Westlock](https://www.westlockcontrols.com) (2023) — _Engineered anomaly detection for vibration applications_
 
-On my side, I conduct research on Trustworthy AI, with an emphasis on improving the safety and efficiency of LLMs and agentic systems.
-- Reliable and personalized GUI agents
-- Training stability
+On my side, I conduct research on Trustworthy AI, with an emphasis on improving the safety and efficiency of LLMs and agentic systems (Reliable and personalized GUI agents, Training stability).
 
 My academic roots are in Risk Analysis and Simulation, having researched under [Dr. Marvin Nakayama](https://web.njit.edu/~marvin) at NJIT.
