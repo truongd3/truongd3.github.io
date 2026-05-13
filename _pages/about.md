@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Oregon State University</p>
-    <p>1500 SW Jefferson Way</p>
-    <p>Corvallis, OR 97331</p>
+    <p>Master Student in Computer Science @ OSU</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Computer Science Master's student at [Oregon State University](https://oregonstate.edu). I received my Bachelor's degree in Computer Science at New Jersey Institute of Technology.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I specialize in **Infrastructure**, **Fullstack Development**, and **Performance Optimization**. My goal is to leverage my background in systems and ML/AI to build robust, scalable software. My professional experience includes:
+- Automation & CI/CD @ [Crane](https://cranecpe.com) (2025)
+- Data Visualization & Analytics @ [Merck](https://www.merck.com) (2025)
+- Fullstack & Site Optimization @ [Justworks](https://www.justworks.com) (2024) — _Focused on payroll, tax computation, and performance_
+- Embedded Systems @ [Westlock](https://www.westlockcontrols.com) (2023) — _Engineered anomaly detection for vibration applications_
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On my side, I conduct research on Trustworthy AI, with an emphasis on improving the safety and efficiency of LLMs and agentic systems.
+- Reliable and personalized GUI agents
+- Training stability
+
+My academic roots are in Risk Analysis and Simulation, having researched under [Dr. Marvin Nakayama](https://web.njit.edu/~marvin) at NJIT.
