@@ -24,6 +24,13 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
+# Social links
+email: truongd1903@gmail.com
+github_username: truongd3
+linkedin_username: 2dt
+scholar_userid: kkowHngAAAAJ
+cv_pdf: assets/pdf/example_pdf.pdf
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
