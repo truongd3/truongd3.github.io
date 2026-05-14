@@ -448,7 +448,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "teachings-introduction-to-computer-science-ii",
           title: 'Introduction to Computer Science II',
-          description: "This course covers **Data Structures and Algorithms**, emphasizing implementations in the Java programming language.",
+          description: "This course covers Data Structures and Algorithms, emphasizing implementations in the Java programming language.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/2023-njit-cs114/";
             },},{id: "teachings-introduction-to-machine-learning",
