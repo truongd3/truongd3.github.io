@@ -453,7 +453,7 @@ ninja.data = [{
               window.location.href = "/teachings/2023-njit-cs114/";
             },},{id: "teachings-intensive-programming-in-linux",
           title: 'Intensive Programming in Linux',
-          description: "This course covers Data Structures and Algorithms, emphasizing implementations in the Java programming language.",
+          description: "This comprehensive program is designed to provide students with a strong foundation in programming concepts and practical skills within the Linux environment.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/2024-njit-cs288/";
             },},{id: "teachings-introduction-to-machine-learning",
