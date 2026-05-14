@@ -451,6 +451,11 @@ ninja.data = [{
           description: "This course covers Data Structures and Algorithms, emphasizing implementations in the Java programming language.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/2023-njit-cs114/";
+            },},{id: "teachings-intensive-programming-in-linux",
+          title: 'Intensive Programming in Linux',
+          description: "This course covers Data Structures and Algorithms, emphasizing implementations in the Java programming language.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/2024-njit-cs288/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
