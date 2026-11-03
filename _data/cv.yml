@@ -7,8 +7,6 @@ cv:
   summary:
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
       username: truongd3
     - network: LinkedIn
@@ -23,28 +21,22 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Oregon State University
+        location: Corvallis, OR
+        url: https://oregonstate.edu/
+        area: Computer Science
+        studyType: Master of Engineering
+        start_date: 2026
+        end_date: 2028
+        score: "4.0"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: New Jersey Institution of Technology
+        location: Newark, NJ
+        url: https://drive.google.com/file/d/1rE4tOi_3qbwchGT_I60NRHTLpR3oMnP5/view
+        area: Computer Science
+        studyType: Bachelor of Science
+        start_date: 2021
+        end_date: 2025
 
     Experience:
       - company: Venera AI
@@ -52,39 +44,41 @@ cv:
         location: Brooklyn, NY
         start_date: 2026
         end_date: 2026
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+        summary: Building software solutions for EHR in Vietnam. While standardizing healthcare data exchange across 2,000 hospitals, I deployed AI-powered APIs on Azure and designed PostgreSQL schemas for LLM chat services.
+        # highlights:
+        #   - Relativity
+        #   - Description 2.
 
       - company: Crane Co.
         position: Software Engineer Intern
         location: Saddle Brook, NJ
         start_date: 2025-06-01
         end_date: 2025-08-31
-        highlights:
-          - Description 1.
-          - Description 2.
+        summary: Automating CI/CD pipelines for firmware testing. While reducing manual QA time by 80% through a Linux-based automation system via Jenkins, I developed Bash and Python scripts to flash STM32 devices and cut communication latency to near 0 using pySerial.
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
 
       - company: Justworks
         position: Software Engineer Intern
         location: New York, NY
         start_date: 2024-05-13
         end_date: 2024-08-23
+        summary: Developing payroll and tax computing infrastructure. While enabling 1,000 employees to monitor payroll transactions via Ruby on Rails, I built a React-based live monitoring page with Redis caching and optimized SQL queries to cut execution time from 8m to 30s.
 
       - company: Westlock Controls
         position: Software Engineer Intern
         location: Saddle Brook, NJ
         start_date: 2023-05-13
         end_date: 2023-08-31
+        summary: Developing embedding and anomaly detection systems. While enabling real-time IoT data ingestion by transmitting accelerometer data to an AWS S3 Bucket via MQTT in C/C++, I improved anomaly detection by 100% using Random Cut Forest algorithm on Amazon SageMaker to enable a new sensor device launch.
 
     Volunteer:
       - company: Google Developer Student Club @ NJIT
         position: President
         location: NJIT
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2022
+        end_date: 2024-07-31
         highlights:
           - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
           - "Men of the year 2014 by Time magazine"
