@@ -56,20 +56,26 @@
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
 
-          {% if entry.url %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">
-              <a href="{{ entry.url }}">{{ study_type }}</a>
-            </h6>
-          {% elsif study_type != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ study_type }}</h6>
-          {% endif %}
-
           {% if entry.institution %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.institution }}</h6>
+            <h6 class="title font-weight-bold ml-1 ml-md-4">
+              {% if entry.url %}
+                <a href="{{ entry.url }}">{{ entry.institution }}</a>
+              {% else %}
+                {{ entry.institution }}
+              {% endif %}
+            </h6>
           {% endif %}
 
-          {% if entry.area %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
+          {% if study_type != '' or entry.area %}
+            <h6 class="ml-1 ml-md-4">
+              {% if study_type != '' %}{{ study_type }}{% endif %}
+              {% if study_type != '' and entry.area %}, {% endif %}
+              {% if entry.area %}<span style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</span>{% endif %}
+            </h6>
+          {% endif %}
+
+          {% if entry.score %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">GPA: {{ entry.score }}</h6>
           {% endif %}
 
           {% if entry.courses or entry.highlights %}

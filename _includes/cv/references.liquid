@@ -5,11 +5,35 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
-      {% if entry.icon %}
-        <i class="{{ entry.icon }}"></i>
-      {% endif %}
-      <strong>{{ entry.name }}</strong>
-      <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <div class="d-flex align-items-start">
+        {% if entry.icon %}
+          <i class="{{ entry.icon }} mr-2 mt-1"></i>
+        {% endif %}
+        <div>
+          <strong>
+            {% if entry.url %}
+              <a href="{{ entry.url }}">{{ entry.name }}</a>
+            {% else %}
+              {{ entry.name }}
+            {% endif %}
+          </strong>
+          {% if entry.title or entry.org or entry.organization %}
+            <p>
+              {% if entry.title %}
+                {{ entry.title }}{% if entry.org or entry.organization %}, {% endif %}
+              {% endif %}
+              {% if entry.org %}
+                <em>{{ entry.org }}</em>
+              {% elsif entry.organization %}
+                <em>{{ entry.organization }}</em>
+              {% endif %}
+            </p>
+          {% endif %}
+          {% if entry.reference %}
+            <p>{{ entry.reference | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>

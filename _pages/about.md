@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Master of Engineering in Computer Science student at [Oregon State University](https://oregonstate.edu). I received my Bachelor's degree in Computer Science at New Jersey Institute of Technology.
+I am a Master of Engineering in Computer Science student at [Oregon State University](https://oregonstate.edu). I earned a Bachelor's degree in Computer Science at New Jersey Institute of Technology.
 
 I specialize in **Infrastructure**, **Fullstack Development**, and **Performance Optimization**. My goal is to leverage my background in systems and ML/AI to build robust, scalable software. My professional experience includes:
 - API Hub @ [Venera AI](https://venerian.space/en) (2026)
