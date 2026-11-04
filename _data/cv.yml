@@ -28,7 +28,7 @@ cv:
         studyType: Master of Engineering
         start_date: 2026
         end_date: 2028
-        score: "4.0"
+        score: "4.0 / 4.0"
 
       - institution: New Jersey Institution of Technology
         location: Newark, NJ
@@ -37,6 +37,7 @@ cv:
         studyType: Bachelor of Science
         start_date: 2021
         end_date: 2025
+        score: "3.95 / 4.0"
 
     Experience:
       - company: Venera AI
@@ -44,7 +45,7 @@ cv:
         location: Brooklyn, NY
         start_date: 2026
         end_date: 2026
-        summary: Building software solutions for EHR in Vietnam. While standardizing healthcare data exchange across 2,000 hospitals, I deployed AI-powered APIs on Azure and designed PostgreSQL schemas for LLM chat services.
+        summary: API Hub.
         # highlights:
         #   - Relativity
         #   - Description 2.
@@ -52,26 +53,23 @@ cv:
       - company: Crane Co.
         position: Software Engineer Intern
         location: Saddle Brook, NJ
-        start_date: 2025-06-01
-        end_date: 2025-08-31
-        summary: Automating CI/CD pipelines for firmware testing. While reducing manual QA time by 80% through a Linux-based automation system via Jenkins, I developed Bash and Python scripts to flash STM32 devices and cut communication latency to near 0 using pySerial.
-        # highlights:
-        #   - Description 1.
-        #   - Description 2.
+        start_date: 2025
+        end_date: 2025
+        summary: Automation & CI/CD.
 
       - company: Justworks
         position: Software Engineer Intern
         location: New York, NY
-        start_date: 2024-05-13
-        end_date: 2024-08-23
-        summary: Developing payroll and tax computing infrastructure. While enabling 1,000 employees to monitor payroll transactions via Ruby on Rails, I built a React-based live monitoring page with Redis caching and optimized SQL queries to cut execution time from 8m to 30s.
+        start_date: 2024
+        end_date: 2024
+        summary: Fullstack & Site Optimization. Focused on payroll, tax computation, and performance.
 
       - company: Westlock Controls
         position: Software Engineer Intern
         location: Saddle Brook, NJ
         start_date: 2023-05-13
         end_date: 2023-08-31
-        summary: Developing embedding and anomaly detection systems. While enabling real-time IoT data ingestion by transmitting accelerometer data to an AWS S3 Bucket via MQTT in C/C++, I improved anomaly detection by 100% using Random Cut Forest algorithm on Amazon SageMaker to enable a new sensor device launch.
+        summary: Embedded Systems. Engineered anomaly detection for vibration applications.
 
     Volunteer:
       - company: Google Developer Student Club @ NJIT
@@ -80,24 +78,37 @@ cv:
         start_date: 2022
         end_date: 2024-07-31
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Selected as 1/80 Presidents from 200+ applicants across North America to attend Google I/O 2024, 2025."
+          - "Hosted 19 workshops by collaborating with Google, JPMorgan, Bank of America, and Prudential, increasing attendance by 50% to 100 attendees per event."
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Winner, Corporate Innovation Track
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Truong Dang, Sofia Usmani, Daniel Helmer, Andrew Boksz"
+        date: 2025-05-09
+        awarder: NJIT Capstone
+        url: https://news.njit.edu/spring-2025-capstone-showcase-raises-bar-record-success#:~:text=First%20Place%20%E2%80%93%20Corporate%20Innovation%3A%20Portfolio%20Management%20Integration%20%E2%80%93%20Merck%20(Sofia%20Usmani%2C%20Truong%20Dang%2C%20Daniel%20Helmer%2C%20Andrew%20Boksz)
+        summary: NJIT Capstone is a semester-long, senior-level academic requirement for students in the Ying Wu College of Computing.
 
-      - title: Max Planck Medal
+      - title: Silver Honour, International Youth Math Challenge
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Truong Dang"
+        date: 2021-12-20
+        awarder: IYMC
+        url: https://drive.google.com/file/d/1zw8ITUdNdwX2CpRcSGThn7nqbl2xFBlw/view
+        summary: IYMC is a global online mathematics competition for high school and university students.
+      
+      - title: Academic Scholar Award
+        authors:
+          - "Truong Dang"
+        date: 2021
+        awarder: NJIT
+      
+      - title: Freshman Award
+        authors:
+          - "Truong Dang"
+        date: 2021
+        awarder: NJIT
 
     Publications:
       - title: Computing Estimators of a Quantile and Conditional Value-at-Risk
@@ -109,7 +120,7 @@ cv:
         publisher: IEEE
         releaseDate: 2025-06-30
         url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11338946
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+        summary: We compare sorting and selection methods for computing quantile and conditional value-at-risk on pre-generated simulation datasets. Our timing experiments and analyses reveal that while selection generally outperforms sorting, the fastest selection strategy depends on multiple factors.
 
     Languages:
       - name: Vietnamese
@@ -120,9 +131,25 @@ cv:
 
     References:
       - name: Dr. Marvin Nakayama
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        icon: fa-solid fa-thumbtack
+        title: Professor of the Computer Science Department
+        org: NJIT
+        url: https://web.njit.edu/~marvin
 
       - name: Dr. James Calvin
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        icon: fa-solid fa-chalkboard-user
+        title: Professor of the Computer Science Department
+        org: NJIT
+        url: https://web.njit.edu/~calvin
+
+      - name: Hang Nguyen
+        icon: fa-solid fa-laptop
+        title: Senior Software Engineer
+        org: Google
+        url: https://www.linkedin.com/in/hangnguyen11
+
+      - name: Dr. James Geller
+        icon: fa-solid fa-chalkboard-user
+        title: Chair of the Data Science Department
+        org: NJIT
+        url: https://web.njit.edu/~geller

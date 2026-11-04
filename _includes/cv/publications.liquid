@@ -33,9 +33,9 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
 
-            {% if entry.publisher %}
+            {% if entry.authors or entry.author %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
-                <em>{{ entry.publisher }}</em>
+                <em>{{ entry.authors | join: ', ' | default: entry.author }}</em>
               </h6>
             {% endif %}
 
@@ -53,9 +53,9 @@
               <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.title }}</h6>
             {% endif %}
 
-            {% if entry.publisher %}
+            {% if entry.authors or entry.author %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
-                <em>{{ entry.publisher }}</em>
+                <em>{{ entry.authors | join: ', ' | default: entry.author }}</em>
               </h6>
             {% endif %}
 
