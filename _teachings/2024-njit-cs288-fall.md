@@ -1,11 +1,11 @@
 ---
 layout: course
 title: Intensive Programming in Linux
-description: This comprehensive program is designed to provide students with a strong foundation in programming concepts and practical skills within the Linux environment.
+description: This program is designed to provide students with a strong foundation in programming concepts and practical skills within the Linux environment.
 instructor: Prof. Mohit Dale 
 year: 2024
-term: Spring
-course_id: 2024-njit-cs288
+term: Fall
+course_id: njit-cs288
 schedule:
   - week: 1
     topic: Introduction to Linux Environment (CLI)

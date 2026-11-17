@@ -1,0 +1,75 @@
+---
+layout: course
+title: Intensive Programming in Linux
+description: This program is designed to provide students with a strong foundation in programming concepts and practical skills within the Linux environment.
+instructor: Prof. Mohit Dale 
+year: 2025
+term: Spring
+course_id: njit-cs288
+schedule:
+  - week: 1
+    topic: Introduction to Linux Environment (CLI)
+
+  - week: 2
+    topic: Introduction to Bash Shell Scripting
+
+  - week: 3
+    topic: Pattern Matching with Regular Expressions
+
+  - week: 4
+    topic: Midterm Exam - 1
+
+  - week: 5
+    topic: Multiple topics
+    description: |
+      * Debugging in C (GDB Tutorial)
+      * Binary representation of data
+      * Bitwise operators
+
+  - week: 6
+    topic: Multiple topics
+    description: |
+      * Radix-sort
+      * C Pointer variables and Memory Addresses
+
+  - week: 7
+    topic: C Pointer variables (Pointer-to-Pointer) and (Dynamic) multidimensional arrays
+
+  - week: 8
+    topic: Midterm Exam - 2
+
+  - week: 10
+    topic: Multiple topics
+    description: |
+      * Structures and Linked list
+      * A* Search and State Space Search
+
+  - week: 11
+    topic: Programs with multiple threads 
+
+  - week: 12
+    topic: Parallel computing with MPI
+
+  - week: 13
+    topic: Web Scraping
+
+---
+
+## Course Overview
+
+- Have a solid understanding of the Linux command line interface + Bash scripting and be able to navigate, manipulate files, and execute commands efficiently.
+- Be proficient in using Regular Expressions for pattern matching and text processing in Linux.
+- Debug C programs effectively, employing various debugging techniques to identify and fix issues in your code.
+- Understand the binary representation of data and be able to perform bitwise operations.
+- Learn radix-sort, a powerful sorting algorithm.
+- C pointers and dynamic multi-dimensional arrays, essential for managing memory and manipulating complex data structures.
+- Explore self-referential structures and linked lists, fundamental concepts in data structures and algorithms, and gain the ability to implement them in C.
+- Learn A* search, a widely used algorithm for pathfinding.
+- Develop proficiency in Linux file operations and directory operations, allowing you to create, modify, and manage files and directories programmatically.
+- Learn how to write programs with multiple threads, enabling you to leverage parallelism and concurrency in your applications.
+- Gain insight into parallel computing with MPI (Message Passing Interface).
+- Explore web scraping, learning how to extract data from websites programmatically.
+
+## Textbooks
+
+- "The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie

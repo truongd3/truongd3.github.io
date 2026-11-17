@@ -8,6 +8,6 @@ nav_order: 6
 calendar: true
 ---
 
-{% include calendar.liquid calendar_id='truongd3@gmail.com' timezone='America/New_York' %}
+{% include calendar.liquid calendar_id='truongd3@gmail.com' timezone='America/Los_Angeles' %}
 
 {% include courses.liquid %}
